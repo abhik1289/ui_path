@@ -1,227 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-   <style>
+<link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #303952;
         }
 
         .container {
             max-width: 600px;
-            margin: 0 auto;
+            margin: 10px auto;
             padding: 20px;
-            background-color: #ffffff;
+            background-color: #4b6584;
             border-radius: 10px;
         }
 
-        .logo {
+        .main_headline {
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 35px;
+            color: white;
+        }
+
+        .sub_headline1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .sub_headline2 {
+            font-family: "Truculenta", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+        .banner_area {
+            margin: 15px 0;
+        }
+
+        #bottone1 {
+            padding-left: 33px;
+            padding-right: 33px;
+            padding-bottom: 16px;
+            padding-top: 16px;
+            border-radius: 9px;
+            background: #ff7675;
+            border: none;
+            font-family: inherit;
             text-align: center;
+            cursor: pointer;
+            transition: 0.4s;
         }
 
-        .logo img {
-            max-width: 200px;
-            height: auto;
+        #bottone1:hover {
+            box-shadow: 7px 5px 56px -14px #fd79a8;
         }
 
-     
+        #bottone1:active {
+            transform: scale(0.97);
+            box-shadow: 7px 5px 56px -10px #fd79a8;
+        }
 
+        .main_bx {
+            background: #b2bec3;
+            border-radius: 15px;
 
+        }
 
-.detail-item i {
-    margin-right: 10px;
-}
-
-@media only screen and (max-width: 600px) {
-    .detail-item {
-        flex-basis: 100%;
-    }
-}
-
-        .prerequisites {
+        .main_bx .box {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            margin-top: 20px;
-            text-align: center;
+            flex-wrap: wrap;
+            padding: 8px 0px;
         }
 
-        .prerequisites p {
-            margin: 10px 0;
+        .main_bx .left {
+            padding-left: 10px;
+            width: 200px;
+
         }
 
-        .download-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff6600;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.download-btn:hover {
-    background-color: #ff8800;
-}
-        .social-media {
-        
-            margin-top: 20px;
-            text-align: center;
+        .main_bx .right {
+            width: 380px
         }
 
-        .social-media a {
-            margin: 0 5px;
-            display: inline-block;
-            text-decoration: none;
-            color: #333333;
-        }
-        .social-media i{
-            font-size: 25px;
-        }
-        .contact {
-            margin-top: 20px;
-            text-align: center;
+        .Prerequisites_containet_wrapper .button {
+            position: relative;
+            overflow: hidden;
+            height: 3rem;
+            padding: 0 2rem;
+            border-radius: 1.5rem;
+            background: #3d3a4e;
+            background-size: 400%;
+            color: #fff;
+            border: none;
+            cursor: pointer;
         }
 
-        .contact p {
-            margin: 0;
+        .Prerequisites_containet_wrapper .button:hover::before {
+            transform: scaleX(1);
         }
-        .headline{
+
+        .Prerequisites_containet_wrapper .button-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .Prerequisites_containet_wrapper .button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            width: 100%;
+            height: inherit;
+            border-radius: inherit;
+            background: linear-gradient(82.3deg,
+                    rgba(150, 93, 233, 1) 10.8%,
+                    rgba(99, 88, 238, 1) 94.3%);
+            transition: all 0.475s;
+        }
+        .gretting_area p{
             font-family: "Truculenta", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 500;
   font-style: normal;
+  font-size: 20px;
   font-variation-settings:
     "wdth" 100;
-    text-align: center;
-    font-size: 30px;
         }
-        .sub_txt{
-            font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-        }
-       */
-.main_details{
-    /* border: 1px solid red; */
-    display: flex;
+        .gretting_area .button {
+  --main-focus: #2d8cf0;
+  --font-color: #dedede;
+  --bg-color-sub: #222;
+  --bg-color: #323232;
+  --main-color: #dedede;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ff7f50;
+  text-align: center;
 }
-.title{
-    font-family: "Truculenta", sans-serif;
-    font-weight: 800;
-}
+
     </style>
 </head>
+
 <body>
     <div class="container">
-        <div class="logo">
-            <img src="https://m.economictimes.com/thumb/msid-69383692,width-1200,height-900,resizemode-4,imgsize-345753/tech.jpg" style="border-radius: 15px;border-top-left-radius: 40px;border-bottom-right-radius: 40px;" alt="UiPath Logo">
+        <div class="header" style="text-align: center;">
+            <div class="text main_headline">Empowering Efficiency</div>
+            <div class="text sub_headline1" style="color: #ff7675;">Create Collaboration Learn</div>
+            <div class="text sub_headline2" style="color: #dfe6e9;">with Cutting-Edge Automation Solutions</div>
         </div>
-        <p style="text-align: center;color: #e74c3c;" class="sub_txt" >Workshop and Quiz</p>
-        <h2 class="headline">Empowering Efficiency: <i style="color: #e74c3c;">Streamline, Connect, Collaborate, and Learn</i> with Cutting-Edge Automation Solutions</h2>
-        <div class="regestartion" style="display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center;">
-            <p class="sub_txt"> Embark on Your Automation Journey, One Uipath Studio, Project, or Component at a Time, Empowered by UiPath's Cutting-Edge Automation Solutions</p>
-            <a href="#" class="registration-btn download-btn sub_txt">Register Now</a>
+        <div class="banner_area">
+            <img src="https://cdn.pixabay.com/photo/2023/02/09/09/56/robot-7778417_1280.png" alt="banner_img"
+                style="width: 100%;border-radius: 20px;">
         </div>
-        <hr>
-       <div class="main_details" style="display: flex; justify-content: center;border-radius: 10px;">
-<div class="box" style="border: 1px solid #b2bec3;padding: 15px 18px;width: 180px;text-align: center;">
-    <div class="title">
-        DATE
-    </div>
-    <div class="data sub_txt">
-      4<sup>th</sup>    April
-    </div>
-</div>
-<div class="box" style="border: 1px solid #b2bec3;padding: 15px 18px;width: 180px;text-align: center;">
-    <div class="title">
-        TIME
-    </div>
-    <div class="data sub_txt">
-    6:00 PM - 8:00 PM
-    </div>
-</div>
-       </div>
-        <div class="event-details ">
-         <h5 style="text-align:center;font-size: 20px;color: #e74c3c;font-weight: 700;" class="sub_txt"  >Highlights of the event</h5>
-         <div class="wrapper sub_txt" style="background: #dfe6e9;padding: 18px;border-radius: 12px;">
-
-            <div class="detail-item" style="display: flex;padding: 10px 0; border: 1px sloid red;border-bottom: 1px dotted #636e72;">
-              <div class="left" style="width: 150px;">
-             Venue
-              </div>
-              <div class="txt">
-                Campus 7 Auditorium
-             </div>
-            </div>
-             <!-- <div class="detail-item" style="display: flex;padding: 10px 0; border: 1px sloid red;border-bottom: 1px dotted #636e72;">
-                <div class="left" style="width: 150px;">
-                    Goodies
-                </div>
-                <div class="txt">
-                    Participants will receive exciting goodies
-               </div>
-            </div> -->
-            <div class="detail-item" style="display: flex; padding: 10px 0; border: 1px sloid red;border-bottom: 1px dotted #636e72;">
-                <div class="left" style="width: 150px;">
-                    QUIZ SESSION
-                </div>
-                <div class="txt">
-                   claim exciting goodies .
-               </div>
-            </div>
-          <div class="detail-item" style="display: flex;padding: 10px 0; border: 1px sloid red;">
-            <div class="left" style="width: 150px;">
-                Certification
-            </div>
-            <div class="txt">
-                All participants will receive a certificate
+        <div class="gretting_area" style="text-align: center;">
+           <div class="center_peace" style="display: flex;justify-content: center;align-items: center;margin-bottom: 15px;">
+            <button type="button" class="button">
+                <span class="button__text">Workshop & Quizs</span>
+              
+              </button>
            </div>
+            <!-- <p></p> -->
+            <div style="font-size: 25px;color: #ff4757;" class="sub_headline1">Greetings !!!</div>
+            <p style="font-size: 20px;color: white;" class="sub_headline2">Embark on Your Automation Journey, On Uipath Studio,
+                Project, or Component at a Time, Empowered by UiPath's Cutting-Edge Automation Solutions</p>
+            <button id="bottone1"><strong>Registration Now</strong></button>
         </div>
-        
+        <div class="highligts">
+            <p class="sub_headline1" style="font-size: 25px;text-align: center;color: #ff4757;font-weight: 600;">Highlights of the event</p>
+            <div class="main_bx">
+                <div class="box" style="background-color: #7f8c8d;">
+                    <div class="left">Venue</div>
+                    <div class="right">
+                        Campus 7 Auditorium
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="left">HANDS ON PROJECT</div>
+                    <div class="right">
+                        Engage directly with practical projects, gaining invaluable experience and insights in the
+                        process
+                    </div>
+                </div>
+                <div class="box" style="background-color: #7f8c8d;">
+                    <div class="left">QUIZ SESSION</div>
+                    <div class="right">
+                        Quiz Session based on automation and event, climb the leaderboards and claim exciting goodies
+                        and stickers
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="left">Goodies</div>
+                    <div class="right">
+                        Participants will receive exciting goodies
+                    </div>
+                </div>
+                <div class="box" style="background-color: #7f8c8d;">
+                    <div class="left">Certification</div>
+                    <div class="right">
+                        All participants will receive a certificate
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event_containet_wrapper"
+            style="display: flex;justify-content: center;align-items: center;margin: 15px 0;">
+            <div class="event_details"
+                style="width: 400px;padding: 10px 0;border: 1px solid #7f8c8d;border-left: none;border-right: none; display: flex;justify-content: center;align-items: center;flex-direction: column;">
+                <div class="headline sub_headline1" style="font-size: 30px;margin: 8px 0;color: #ff4757;">
+                    Event Details
+                </div>
+                <div class="info sub_headline2" style="text-align: center;font-size: 20px;color: white;">
+                    Date: 24-03-2024
+                    <br>
+                    Time: 10:00 AM
+                </div>
+            </div>
+        </div>
 
-   
+
+        <div class="Prerequisites_containet_wrapper"
+            style="display: flex;justify-content: center;align-items: center;margin-top: 15px ;">
+            <div class="event_details"
+                style="width: 400px;padding: 10px 0;   border: 1px solid #7f8c8d;border-left: none;border-right: none; border-top: none; display: flex;justify-content: center;align-items: center;flex-direction: column;">
+                <div class="headline sub_headline1" style="font-size: 30px;margin: 8px 0;color: #ff4757;">
+                    Prerequisites
+                </div>
+                <div class="info sub_headline2" style="text-align: center;font-size: 20px;color: white;">
+                    Make sure to bring your charged laptops
+                    Have the UiPath Studio software installed
+                </div>
+                <button class="button" style="margin: 18px 0;">
+                    <span class="button-content">Download UiPath Studio</span>
+                </button>
+
+            </div>
         </div>
-        
-          
-            <!-- <div class="detail-item"><i class="fas fa-gift"></i> Goodies: </div>
-            <div class="detail-item"><i class="fas fa-certificate"></i> Certification: </div> -->
+
+        <div class="reach_out_seaction"
+            style="display: flex;justify-content: center;align-items: center;text-align: center;">
+            <div class="container" style="width: 400px;border-bottom: 1px solid #7f8c8d;border-radius: 0px;">
+                <div class="headline sub_headline1" style="font-size: 20px;margin: 10px 0;color: #ff4757;"  >
+                    For any further queries, reach out to:
+                </div>
+                <div class="cotent sub_headline2" style="font-size: 18px;color: white;">
+                    Vaibhav Tiwari - 9335374289 <br>
+                    Anshul Kumar - 9984771258
+                </div>
+            </div>
         </div>
-        
-        
-        
-        
-        <div class="prerequisites">
-            <strong class="sub_txt" style="text-align:center;font-size: 20px;color: #e74c3c;font-weight: 700;">Prerequisites</strong> <br> <p class="sub_txt" style="font-weight: 400;"> Make sure to bring your charged laptops
-                Have the  <strong>UiPath Studio must be installed.</strong></p>
-            <a target="_blank" href="https://www.uipath.com/product/studio" class="download-btn">Download Now</a>
-        </div>
-        <div class="contact">
-          <strong>  <p>For any further queries, reach out to:</p></strong>
-            <p>Vaibhav Tiwari - 9335374289</p>
-            <p>Anshul Kumar - 9984771258</p>
-        </div>
-        <hr>
-        <div class="social-media">
-            <!-- <a href="#"  target="_blank"><i style="color: #3498db;" class="fab fa-facebook"></i></a> -->
-            <a href="#" target="_blank"><i style="color: #2980b9;" class="fab fa-twitter"></i></a>
-            <a href="#" target="_blank"><i style="color: #e74c3c;" class="fab fa-instagram"></i></a>
-            <a href="#" target="_blank"><i  style="color: #3498db;" class="fab fa-linkedin"></i></a>
-        </div>
+<div class="footer">
+  <div class="" style="display: flex;justify-content: center;align-items: center;text-align: center;flex-direction: column;">
+    <p style="color: #ff4757;">Stay Connected with us !!!</p>
+    <div class="social-media" style="display: flex;justify-content: center;align-items: center;gap: 10px;font-size: 30px;">
+  
+        <a href="#" target="_blank"><svg  style="width: 28px;fill: #2c3e50;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg></a>
+        <a href="#" target="_blank"><i  style="color: #e74c3c;" class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i   style="color: #3498db;" class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
+</div>
     </div>
 </body>
+
 </html>
