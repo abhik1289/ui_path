@@ -115,7 +115,11 @@
         .main_bx .right {
             width: 380px
         }
-
+        @media only screen and (max-width: 600px) {
+            .main_bx .right {
+            width: 200px
+        }
+}
         .Prerequisites_containet_wrapper .button {
             position: relative;
             overflow: hidden;
@@ -182,7 +186,10 @@
   background: #ff7f50;
   text-align: center;
 }
-
+.reach_out_seaction .box:hover {
+    transform: translateY(10px);
+    transition: all;
+}
     </style>
 </head>
 
@@ -274,9 +281,11 @@
                     Make sure to bring your charged laptops
                     Have the UiPath Studio software installed
                 </div>
+               <a target="_blank" href="https://www.uipath.com/product/studio">
                 <button class="button" style="margin: 18px 0;">
                     <span class="button-content">Download UiPath Studio</span>
                 </button>
+               </a>
 
             </div>
         </div>
@@ -296,11 +305,19 @@
 <div class="footer">
   <div class="" style="display: flex;justify-content: center;align-items: center;text-align: center;flex-direction: column;">
     <p style="color: #ff4757;">Stay Connected with us !!!</p>
-    <div class="social-media" style="display: flex;justify-content: center;align-items: center;gap: 10px;font-size: 30px;">
+    <div class="social-media" style="display: flex;justify-content: center;align-items: center;gap: 18px;font-size: 30px;">
   
-        <a href="#" target="_blank"><svg  style="width: 28px;fill: #2c3e50;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg></a>
-        <a href="#" target="_blank"><i  style="color: #e74c3c;" class="fab fa-instagram"></i></a>
-        <a href="#" target="_blank"><i   style="color: #3498db;" class="fab fa-linkedin"></i></a>
+       <div class="box">
+        <a href="#" target="_blank"><svg  style="width: 25px;fill: #2c3e50;margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg></a>
+       </div>
+       <div class="box">
+        <a href="https://www.instagram.com/usc.kiit/" target="_blank"><i  style="color: #e74c3c;" class="fab fa-instagram"></i></a>
+       </div>
+       <div class="box">
+
+        <a href="https://www.linkedin.com/company/uipath-community-kiit/" target="_blank"><i   style="color: #3498db;" class="fab fa-linkedin"></i></a>
+       </div>
+
     </div>
   </div>
 
