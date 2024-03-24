@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+
+        .logo {
+            text-align: center;
+        }
+
+        .logo img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .event-details {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .event-column {
+            flex: 1;
+        }
+
+        .event-item {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            /* flex-direction:column; */
+        }
+
+        .event-icon {
+            font-size: 27px;
+            margin-right: 10px;
+            color: #ff6600;
+        }
+        @media only screen and (max-width: 600px) {
+    .detail-item {
+        flex-basis: 100%;
+    }
+}
+        .prerequisites {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .prerequisites p {
+            margin: 10px 0;
+        }
+
+        .download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #ff8800;
+}
+        .social-media {
+        
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-media a {
+            margin: 0 5px;
+            display: inline-block;
+            text-decoration: none;
+            color: #333333;
+        }
+        .social-media i{
+            font-size: 25px;
+        }
+        .contact {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 0;
+        }
+       */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://m.economictimes.com/thumb/msid-69383692,width-1200,height-900,resizemode-4,imgsize-345753/tech.jpg" style="border-radius: 15px;border-top-left-radius: 40px;border-bottom-right-radius: 40px;" alt="UiPath Logo">
+        </div>
+        <h2>Empowering Efficiency: <i style="color: #e74c3c;">Streamline, Connect, Collaborate, and Learn</i> with Cutting-Edge Automation Solutions</h2>
+        <div class="regestartion" style="display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center;">
+            <p> Embark on Your Automation Journey, One Uipath Studio, Project, or Component at a Time, Empowered by UiPath's Cutting-Edge Automation Solutions</p>
+            <a href="#" class="registration-btn download-btn">Register Now</a>
+        </div>
+        <hr>
+        <div class="event-details">
+            <div class="event-column">
+                <div class="event-item">
+                    <i class="fas fa-calendar-alt event-icon"></i>
+                    <p><strong>Date:</strong> April 4th, 2024</p>
+                </div>
+                <div class="event-item">
+                    <i class="fas fa-map-marker-alt event-icon"></i>
+                    <p><strong>Venue:</strong> Campus 7 Auditorium</p>
+                </div>
+                <div class="event-item">
+                    <i class="far fa-clock event-icon"></i>
+                    <p><strong>Time:</strong> 6:00 PM - 8:00 PM</p>
+                </div>
+            </div>
+            <div class="event-column">
+                <div class="event-item">
+                    <i class="far fa-clock event-icon"></i>
+                    <p><strong>Duration:</strong> 1 Day</p>
+                </div>
+                <div class="event-item">
+                    <i class="fas fa-tasks event-icon"></i>
+                    <p><strong>Activities:</strong> Workshop and Quiz</p>
+                </div>
+                <div class="event-item">
+                    <i class="fas fa-gift event-icon"></i>
+                    <p><strong>Goodies:</strong> Participants will receive exciting goodies</p>
+                </div>
+            </div>
+            <div class="event-column">
+                <div class="event-item">
+                    <i class="fas fa-certificate event-icon"></i>
+                    <p><strong>Certification:</strong> All participants will receive a certificate</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="prerequisites">
+            <p><strong>Prerequisites:</strong> Make sure to bring your charged laptops. <strong>UiPath Studio must be installed.</strong></p>
+            <a target="_blank" href="https://www.uipath.com/product/studio" class="download-btn">Download Now</a>
+        </div>
+        <div class="contact">
+          <strong>  <p>For any further queries, reach out to:</p></strong>
+            <p>Vaibhav Tiwari - 9335374289</p>
+            <p>Anshul Kumar - 9984771258</p>
+        </div>
+        <hr>
+        <div class="social-media">
+            <!-- <a href="#"  target="_blank"><i style="color: #3498db;" class="fab fa-facebook"></i></a> -->
+            <a href="#" target="_blank"><i style="color: #2980b9;" class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i style="color: #e74c3c;" class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i  style="color: #3498db;" class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</body>
+</html>
