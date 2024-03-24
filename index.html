@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Invitation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -30,34 +36,20 @@
             height: auto;
         }
 
-        .event-details {
-            margin-top: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
+     
 
-        .event-column {
-            flex: 1;
-        }
 
-        .event-item {
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            /* flex-direction:column; */
-        }
 
-        .event-icon {
-            font-size: 27px;
-            margin-right: 10px;
-            color: #ff6600;
-        }
-        @media only screen and (max-width: 600px) {
+.detail-item i {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
     .detail-item {
         flex-basis: 100%;
     }
 }
+
         .prerequisites {
             display: flex;
             justify-content: center;
@@ -107,8 +99,31 @@
         .contact p {
             margin: 0;
         }
+        .headline{
+            font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+    font-size: 30px;
+        }
+        .sub_txt{
+            font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+        }
        */
-
+.main_details{
+    /* border: 1px solid red; */
+    display: flex;
+}
+.title{
+    font-family: "Truculenta", sans-serif;
+    font-weight: 800;
+}
     </style>
 </head>
 <body>
@@ -116,51 +131,83 @@
         <div class="logo">
             <img src="https://m.economictimes.com/thumb/msid-69383692,width-1200,height-900,resizemode-4,imgsize-345753/tech.jpg" style="border-radius: 15px;border-top-left-radius: 40px;border-bottom-right-radius: 40px;" alt="UiPath Logo">
         </div>
-        <h2>Empowering Efficiency: <i style="color: #e74c3c;">Streamline, Connect, Collaborate, and Learn</i> with Cutting-Edge Automation Solutions</h2>
+        <p style="text-align: center;color: #e74c3c;" class="sub_txt" >Workshop and Quiz</p>
+        <h2 class="headline">Empowering Efficiency: <i style="color: #e74c3c;">Streamline, Connect, Collaborate, and Learn</i> with Cutting-Edge Automation Solutions</h2>
         <div class="regestartion" style="display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center;">
-            <p> Embark on Your Automation Journey, One Uipath Studio, Project, or Component at a Time, Empowered by UiPath's Cutting-Edge Automation Solutions</p>
-            <a href="#" class="registration-btn download-btn">Register Now</a>
+            <p class="sub_txt"> Embark on Your Automation Journey, One Uipath Studio, Project, or Component at a Time, Empowered by UiPath's Cutting-Edge Automation Solutions</p>
+            <a href="#" class="registration-btn download-btn sub_txt">Register Now</a>
         </div>
         <hr>
-        <div class="event-details">
-            <div class="event-column">
-                <div class="event-item">
-                    <i class="fas fa-calendar-alt event-icon"></i>
-                    <p><strong>Date:</strong> April 4th, 2024</p>
-                </div>
-                <div class="event-item">
-                    <i class="fas fa-map-marker-alt event-icon"></i>
-                    <p><strong>Venue:</strong> Campus 7 Auditorium</p>
-                </div>
-                <div class="event-item">
-                    <i class="far fa-clock event-icon"></i>
-                    <p><strong>Time:</strong> 6:00 PM - 8:00 PM</p>
-                </div>
+       <div class="main_details" style="display: flex; justify-content: center;border-radius: 10px;">
+<div class="box" style="border: 1px solid #b2bec3;padding: 15px 18px;width: 180px;text-align: center;">
+    <div class="title">
+        DATE
+    </div>
+    <div class="data sub_txt">
+      4<sup>th</sup>    April
+    </div>
+</div>
+<div class="box" style="border: 1px solid #b2bec3;padding: 15px 18px;width: 180px;text-align: center;">
+    <div class="title">
+        TIME
+    </div>
+    <div class="data sub_txt">
+    6:00 PM - 8:00 PM
+    </div>
+</div>
+       </div>
+        <div class="event-details ">
+         <h5 style="text-align:center;font-size: 20px;color: #e74c3c;font-weight: 700;" class="sub_txt"  >Highlights of the event</h5>
+         <div class="wrapper sub_txt" style="background: #dfe6e9;padding: 18px;border-radius: 12px;">
+
+            <div class="detail-item" style="display: flex;padding: 10px 0; border: 1px sloid red;border-bottom: 1px dotted #636e72;">
+              <div class="left" style="width: 150px;">
+             Venue
+              </div>
+              <div class="txt">
+                Campus 7 Auditorium
+             </div>
             </div>
-            <div class="event-column">
-                <div class="event-item">
-                    <i class="far fa-clock event-icon"></i>
-                    <p><strong>Duration:</strong> 1 Day</p>
+             <!-- <div class="detail-item" style="display: flex;padding: 10px 0; border: 1px sloid red;border-bottom: 1px dotted #636e72;">
+                <div class="left" style="width: 150px;">
+                    Goodies
                 </div>
-                <div class="event-item">
-                    <i class="fas fa-tasks event-icon"></i>
-                    <p><strong>Activities:</strong> Workshop and Quiz</p>
+                <div class="txt">
+                    Participants will receive exciting goodies
+               </div>
+            </div> -->
+            <div class="detail-item" style="display: flex; padding: 10px 0; border: 1px sloid red;border-bottom: 1px dotted #636e72;">
+                <div class="left" style="width: 150px;">
+                    QUIZ SESSION
                 </div>
-                <div class="event-item">
-                    <i class="fas fa-gift event-icon"></i>
-                    <p><strong>Goodies:</strong> Participants will receive exciting goodies</p>
-                </div>
+                <div class="txt">
+                   claim exciting goodies .
+               </div>
             </div>
-            <div class="event-column">
-                <div class="event-item">
-                    <i class="fas fa-certificate event-icon"></i>
-                    <p><strong>Certification:</strong> All participants will receive a certificate</p>
-                </div>
+          <div class="detail-item" style="display: flex;padding: 10px 0; border: 1px sloid red;">
+            <div class="left" style="width: 150px;">
+                Certification
             </div>
+            <div class="txt">
+                All participants will receive a certificate
+           </div>
         </div>
         
+
+   
+        </div>
+        
+          
+            <!-- <div class="detail-item"><i class="fas fa-gift"></i> Goodies: </div>
+            <div class="detail-item"><i class="fas fa-certificate"></i> Certification: </div> -->
+        </div>
+        
+        
+        
+        
         <div class="prerequisites">
-            <p><strong>Prerequisites:</strong> Make sure to bring your charged laptops. <strong>UiPath Studio must be installed.</strong></p>
+            <strong class="sub_txt" style="text-align:center;font-size: 20px;color: #e74c3c;font-weight: 700;">Prerequisites</strong> <br> <p class="sub_txt" style="font-weight: 400;"> Make sure to bring your charged laptops
+                Have the  <strong>UiPath Studio must be installed.</strong></p>
             <a target="_blank" href="https://www.uipath.com/product/studio" class="download-btn">Download Now</a>
         </div>
         <div class="contact">
