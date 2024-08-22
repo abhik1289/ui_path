@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #007BFF;
+        }
+
+        .content {
+            padding: 20px 0;
+        }
+
+        .content p {
+            margin: 0 0 15px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #dddddd;
+            color: #777;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 12px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #ffffff;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body style="font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+color: #333;">
+    <div class="container" style="max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+        <table>
+            <tr>
+
+            </tr>
+            <tr>
+                <!-- this is section 2 -->
+                <table>
+                    <!-- heading -->
+                    <tr>
+                        <center>
+                            <b>
+                                <p style="color:#8E5F0F;font-size: 25px;">
+                                    Embark on the Journey to <br> Mastering Automation
+                                </p>
+                            </b>
+                        </center>
+                    </tr>
+                    <tr>
+                        <table>
+
+                            <table width="100%">
+                                <tr>
+                                    <td class="three_column" style="text-align: center;">
+                                        <table style="  display: inline-block;
+                    max-width: 190px;
+                    background-color: 
+                    #FF6E00;
+                    padding: 12px 5px;
+                    border-radius: 35px;
+                    vertical-align: top;
+                    height: 240px;
+                    margin-top: 10px;" class="card">
+                                            <tr>
+                                                <td>
+                                                    <center>
+                                                        <div class="icon" style=" box-sizing: border-box;">
+                                                            <img style="width: 60px; height: 60px;"
+                                                                src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724086724/Hackbot/uhx2nxpe3mx3p1zfojbk.png"
+                                                                alt="">
+                                                        </div>
+                                                    </center>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <center>
+                                                        <b>
+                                                            <p
+                                                                style="font-size: 16px; font-weight: 400; line-height: 15px; color: white; margin-top: 12px;">
+                                                                Introduction to ChatBots</p>
+                                                        </b>
+                                                        <p class="small"
+                                                            style="font-size: 14px; line-height: 18px; color: #EEEEEE;">
+                                                            Chatbots simulate conversation, automating interactions with
+                                                            users through AI.
+                                                        </p>
+                                                    </center>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table style="  display: inline-block;
+                    max-width: 190px;
+                    background-color: 
+                    #FF6E00;
+                    padding: 12px 5px;
+                    border-radius: 35px;
+                    vertical-align: top;
+                    height: 240px;
+                    margin-top: 10px;" class="card">
+                                            <tr>
+                                                <td>
+                                                    <center>
+                                                        <div class="icon" style=" box-sizing: border-box;">
+                                                            <img style="width: 60px; height: 60px;"
+                                                                src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724086889/Hackbot/idvm9c5nugtqqsih31xy.png"
+                                                                alt="">
+                                                        </div>
+                                                    </center>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <center>
+                                                        <b>
+                                                            <p
+                                                                style="font-size: 17px; font-weight: 400; line-height: 15px; color: white; margin-top: 12px;">
+                                                                Challenge
+                                                                Yourself</p>
+                                                        </b>
+                                                        <p class="small"
+                                                            style="font-size: 14px; line-height: 18px; color: #EEEEEE; ;">
+                                                            Challenge yourself to grow by embracing new experiences,
+                                                            learning from failures, and setting ambitious goals.
+                                                        </p>
+                                                    </center>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table style="  display: inline-block;
+                    max-width: 190px;
+                    background-color: 
+                    #FF6E00;
+                    padding: 12px 5px;
+                    border-radius: 35px;
+                    vertical-align: top;
+                    height: 240px;
+                    margin-top: 10px;" class="card">
+                                            <tr>
+                                                <td>
+                                                    <center>
+                                                        <div class="icon" style=" box-sizing: border-box;">
+                                                            <img style="width: 60px; height: 60px;"
+                                                                src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724086888/Hackbot/fahamv2pacyxy0ll7g7w.png"
+                                                                alt="">
+                                                        </div>
+                                                    </center>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <center>
+                                                        <b>
+                                                            <p
+                                                                style="font-size: 17px; font-weight: 400; line-height: 15px; color: white; margin-top: 12px;">
+                                                                Endless
+                                                                Opportunities</p>
+                                                        </b>
+                                                        <p class="small"
+                                                            style="font-size: 14px; line-height: 18px; color: #EEEEEE;">
+                                                            Join the UiPath Student Community at KIIT for endless
+                                                            opportunities.
+                                                        </p>
+                                                    </center>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+
+                                </tr>
+
+
+                            </table>
+                        </table>
+                    </tr>
+                </table>
+            </tr>
+
+            <!-- PREREQUISITES -->
+            <tr>
+                <table>
+                    <tr>
+                        <center>
+                            <b>
+                                <p style="color:#8E5F0F;font-size: 25px;">
+                                    PREREQUISITES
+                                </p>
+                            </b>
+                        </center>
+                    </tr>
+
+                    <tr style="">
+                        <b><i>
+                                1) Make sure to bring your charged laptops. <br>
+                                2) Have the UiPath Studio software installed. <br>
+                                3)Attend the pre-event sessions on RPA and Generative AI to gain essential
+                                knowledge. <br>
+                                4)Complete the Automation Explorer
+                                challenge plan before the event.
+                            </i></b>
+                    </tr>
+                    <tr>
+                        <center>
+                            <b>
+                                <p style="color:#8E5F0F;font-size: 25px;">
+                                    *Watch How to Download 
+                                    UiPath Studio on YouTube -
+                                     <a href="">Click Here</a>
+                                </p>
+                            </b>
+                        </center>
+                    </tr>
+                    <tr>
+                        <center> <button style="width: 300px;padding: 20px;background: 
+#FF6E00;border:none;border-radius: 50px;color: white;"><b>DOWNLOAD UiPath HERE</b></button></center>
+                    </tr>
+                </table>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
