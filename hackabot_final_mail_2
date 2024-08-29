@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body style="font-family: serif; margin: 0; padding: 0; background-color: #f7f7f7;">
+
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center"
+        style="max-width: 600px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 5px; overflow: hidden;">
+        <tr>
+            <td>
+                <!-- Header Image -->
+                <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724961698/m7dknweqcyjvliqmlmtg.jpg"
+                    alt="Hack A Bot Background" style="width: 100%; max-width: fit-content; display: block; border: 0;">
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <td style="padding: 20px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td style="border: 4px solid #000; padding: 40px; border-radius: 10px;">
+                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td style="text-align: center; padding: 0 20px 20px;">
+                                        <table width="100%" style="border-collapse: collapse;">
+                                            <tr>
+                                                <td style="width: 80px; text-align: left;">
+                                                    <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345259/image-removebg-preview_1_lfsvup.png"
+                                                        alt="Header Icon 1" style="width: 80px;">
+                                                </td>
+                                                <td style="text-align: center;">
+                                                    <h1
+                                                        style="color: #ff6f00; font-size: 24px; margin: 0; font-family: 'DM Serif Display', serif;">
+                                                        Embark on the Journey to Mastering Automation
+                                                    </h1>
+                                                </td>
+                                                <td style="width: 80px; text-align: right;">
+                                                    <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345259/image-removebg-preview_2_kyrtvq.png"
+                                                        alt="Header Icon 2" style="width: 80px;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <table role="presentation" width="100%" cellspacing="0" cellpadding="0"
+                                            border="0">
+                                            <tr>
+                                                <td style="padding: 20px 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0"
+                                                        border="0"
+                                                        style="width: 140px; margin: 0 auto; border-radius: 20px; background: linear-gradient(175.28deg, #06323F 3.1%, #063E4F 74.94%, #085A73 96.9%);">
+                                                        <tr>
+                                                            <td
+                                                                style="text-align: center; color: white; font-size: 12px; padding: 10px;">
+                                                                <center>
+                                                                    <div class="img_icon" style="width: 60px;height: 60px;background: white;border-radius: 100px;
+                                                                overflow: hidden;">
+                                                                        <center>
+                                                                            <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724491773/ztzkethpjhghgscufn8e.png"
+                                                                                alt="Icon 1" class="icon_"
+                                                                                style="width: 40px; height: 40px;margin-top: 8px;">
+                                                                        </center>
+                                                                    </div>
+                                                                </center>
+                                                                <h3 style="color: #fff; margin: 10px 0 5px;">
+                                                                    Gen AI x RPA</h3>
+                                                                <p style="margin: 0;"> combines generative AI's creative
+                                                                    power with robotic process automation to enhance and
+                                                                    automate complex workflows.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="padding: 20px 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0"
+                                                        border="0"
+                                                        style="width: 140px; margin: 0 auto; border-radius: 20px; background: linear-gradient(175.28deg, #06323F 3.1%, #063E4F 74.94%, #085A73 96.9%);">
+                                                        <tr>
+                                                            <td
+                                                                style="text-align: center; color: white; font-size: 12px; padding: 10px;">
+                                                                <center>
+                                                                    <div class="img_icon" style="width: 60px;height: 60px;background: white;border-radius: 100px;
+                                                                overflow: hidden;">
+                                                                        <center>
+                                                                            <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724492425/qjcxkl9meegjiryyex1a.png"
+                                                                                alt="Icon 1" class="icon_"
+                                                                                style="width: 40px; height: 40px;margin-top: 8px;">
+                                                                        </center>
+                                                                    </div>
+                                                                </center>
+                                                                <h3 style="color: #fff; margin: 10px 0 5px;">Challenge
+                                                                    Yourself</h3>
+                                                                <p style="margin: 0;">Challenge yourself to grow by
+                                                                    embracing new experiences, learning from failures,
+                                                                    and setting ambitious goals.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="padding: 20px 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0"
+                                                        border="0"
+                                                        style="width: 140px; margin: 0 auto; border-radius: 20px; background: linear-gradient(175.28deg, #06323F 3.1%, #063E4F 74.94%, #085A73 96.9%);">
+                                                        <tr>
+                                                            <td
+                                                                style="text-align: center; color: white; font-size: 12px; padding: 10px;">
+                                                                <center>
+                                                                    <div class="img_icon" style="width: 60px;height: 60px;background: white;border-radius: 100px;
+                                                                overflow: hidden;">
+                                                                        <center>
+                                                                            <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724492425/ixrsyhvdohseagjtwiol.png"
+                                                                                alt="Icon 1" class="icon_"
+                                                                                style="width: 40px; height: 40px;margin-top: 8px;">
+                                                                        </center>
+                                                                    </div>
+                                                                </center>
+                                                                <h3 style="color: #fff; margin: 10px 0 5px;">Endless
+                                                                    Opportunities</h3>
+                                                                <p style="margin: 0;">Join the UiPath Student Community
+                                                                    at KIIT for endless opportunities.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <!-- Automation Explorer Course Section -->
+                                <tr>
+                                    <td style="text-align: center; padding: 0 20px 20px; margin-top: 50px;">
+                                        <table width="100%" style="border-collapse: collapse;">
+                                            <tr>
+                                                <td style="text-align: center; padding: 0 20px 20px; margin-top: 50px;">
+                                                    <table width="100%" style="border-collapse: collapse;">
+                                                        <tr>
+                                                            <td
+                                                                style="width: 80px; text-align: left; padding-top: 10px;">
+                                                                <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345259/image-removebg-preview_3_ozmzxy.png"
+                                                                    alt="Header Icon 1" style="width: 80px;">
+                                                            </td>
+                                                            <td style="text-align: center; padding-top: 10px;">
+                                                                <h1 style="color: #ff6f00; font-size: 24px; margin: 0;">
+                                                                    PREREQUISITES</h1>
+                                                            </td>
+                                                            <td
+                                                                style="width: 70px; text-align: right; padding-top: 10px;">
+                                                                <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345258/image-removebg-preview_4_ko34sj.png"
+                                                                    alt="Header Icon 2" style="width: 70px;">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="3" style="padding-top: 20px;">
+                                                                <ol
+                                                                    style="margin: 0 auto; padding-left: 40px; max-width: 500px; font-weight: 700; text-align: left;">
+                                                                    <li>Make sure to bring your charged laptops.</li>
+                                                                    <li>Have the UiPath Studio software installed.</li>
+
+                                                                    <li>
+                                                                        Take a look at the bonus content.
+                                                                    </li>
+                                                                </ol>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center; margin-top: 20px;">
+
+                                                    <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScidokNKDVNhf8IYvNnh2FCSx-hikzhNED9a-FDQLvf3OxGZA/viewform?pli=1">
+
+                                                        <button
+                                                            style="background: linear-gradient(175.28deg, #06323F 3.1%, #063E4F 74.94%, #085A73 96.9%); font-family: serif; font-weight: 800; color: #fff; padding: 20px 50px; border: none; border-radius: 20px; font-size: 30px; cursor: pointer;margin-top: 15px;">
+                                                           Upload Certificate
+                                                        </button>
+                                                    </a> -->
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+
+
+                                <!-- PART 3 -->
+                                <tr>
+                                    <td style="padding: 20px;">
+                                        <table width="100%" style="border-collapse: collapse;">
+                                            <!-- Automation Explorer Course -->
+                                            <tr>
+                                                <td style="text-align: center; font-weight: 600;">
+                                                    <!-- <p>Automation Explorer Course: because only the prepared can
+                                                        dominate!</p> -->
+                                                </td>
+                                            </tr>
+                                            <!-- Exclusive Live Sessions Heading -->
+
+                                            <!-- Live Session Dates -->
+
+                                            <!-- Bonus Content Heading -->
+                                            <tr>
+                                                <td style="font-size: larger; font-weight: 800; text-align: center;">
+                                                    <p>Bonus Content</p>
+                                                </td>
+                                            </tr>
+                                            <!-- Bonus Content Description -->
+                                            <tr>
+                                                <td style="text-align: center; font-weight: 600;">
+                                                    <p>A special recording by UiPath MVP Nisarg Kadam on integrating Gen
+                                                        AI with UiPath Studio. This one’s a game-changer!</p>
+                                                </td>
+                                            </tr>
+                                            <!-- View Sessions Button -->
+                                            <tr>
+                                                <td style="text-align: center; margin-top: 0px;">
+                                                    <a target="_blank"
+                                                        href="https://youtube.com/playlist?list=PL5_Z4y7_5m7dn0EcA-wCH_s6iEC1a8s73&si=gJss_ePaUlgO-JxV">
+                                                        <button
+                                                            style="background: black; font-family: serif; font-weight: 800; color: #fff; padding: 20px 50px; border: none; border-radius: 20px; font-size: 30px; cursor: pointer;">
+                                                            Watch Here
+                                                        </button>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+
+
+                                                    <center>
+                                                        <table style="margin-bottom:20px">
+                                                            <tr class="" align="center">
+
+                                                                <i>
+
+                                                                    <b>
+                                                                        <h2 style="color: red;">
+                                                                            Please find the problem statements here
+                                                                        </h2>
+
+                                                                    </b>
+                                                                </i>
+
+
+
+
+                                                                <a style="background:#063E4F;padding-left: 15px;padding-right: 15px;padding-top: 16px;padding-bottom: 16px;border-radius: 10px;text-decoration: none;color: white;"
+                                                                    href="https://drive.google.com/file/d/1jGl4f8yzxH0fmgLuctYJi9kOgO8df1ef/view?usp=sharing">
+                                                                    Click Here
+                                                                </a>
+
+                                                            </tr>
+                                                        </table>
+                                                    </center>
+                                                </td>
+                                            </tr>
+                                            <!-- Image and YouTube Link -->
+                                            <tr>
+                                                <td style="padding: 20px 20px 10px 20px; margin-top: 50px;">
+                                                    <table width="100%" style="border-collapse: collapse;">
+                                                        <tr>
+                                                            <!-- Left Image Column -->
+                                                            <td
+                                                                style="width: 140px; text-align: left; vertical-align: middle;">
+                                                                <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724349912/771416eba68137c0d68f0ce61e5a4512_r4api1.png"
+                                                                    alt="Header Icon 1" style="width: 130px;">
+                                                            </td>
+                                                            <!-- Center Text Column -->
+                                                            <td style="text-align: center; vertical-align: middle;">
+                                                                <p style="font-weight: 600; color: #E78632; margin: 0;">
+                                                                    *Watch How to Download UiPath Studio on YouTube -
+                                                                    <a href="https://www.youtube.com/watch?v=znRQy4aeoNU"
+                                                                        style="color: #E78632; text-decoration: underline;">Click
+                                                                        here</a>
+                                                                </p>
+                                                            </td>
+                                                            <!-- Right Image Column -->
+                                                            <td
+                                                                style="width: 120px; text-align: right; vertical-align: middle;">
+                                                                <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724349912/c2d7ea5b18bcfe3a928ef72c3451641e_klk8kk.png"
+                                                                    alt="Header Icon 2"
+                                                                    style="width: 120px; margin-top: -20px;">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+
+                                                    <center>
+                                                        <h2>
+
+                                                            <b>
+                                                                <i>
+
+                                                                    <p>Each member of the team must register separately.
+                                                        </h2>
+
+                                                        </b>
+                                                        </i>
+
+
+
+                                                        <a style="background:#063E4F;padding-left: 15px;padding-right: 15px;padding-top: 16px;padding-bottom: 16px;border-radius: 10px;text-decoration: none;color: white;"
+                                                            href="https://usckiit.in/hack-a-bot">
+                                                            Register Now
+                                                        </a>
+                                                    </center>
+                                                </td>
+                                            </tr>
+
+                                            <!-- Bonus Communication Note -->
+                                            <tr>
+                                                <td
+                                                    style="font-size: medium; font-weight: 700; text-align: center; padding: 0 60px;">
+                                                    <p>To facilitate ongoing communication, please join the designated
+                                                        group.</p>
+                                                </td>
+                                            </tr>
+                                            <!-- Join WhatsApp Group Button -->
+                                            <tr>
+                                                <td style="text-align: center; margin-top: 20px;">
+                                                    <a href="https://chat.whatsapp.com/LUiOp85RcltK8zcqDKPbp8">
+
+                                                        <button
+                                                            style="background: #1C9E25; font-family: serif; font-weight: 800; color: #fff; width: 300px; padding: 10px; border: none; border-radius: 20px; font-size: 24px; cursor: pointer;">
+                                                            Join WhatsApp Group Here
+                                                        </button>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr style="padding: 10px;">
+            <td
+                style=" background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://res.cloudinary.com/da3u4ukxz/image/upload/v1724352379/Screenshot_2024-08-23_001342_syhonk.png') no-repeat center center; background-size: cover; border-radius: 20px;">
+                <h2 style="font-size: 36px; color: white; text-align: center; margin-bottom: 40px;">Important Highlights
+                </h2>
+                <!-- Centered Container -->
+                <table width="100%" style="border-collapse: collapse; text-align: center; padding: 20px;">
+                    <tr>
+                        <td style="text-align: center;">
+                            <!-- Inner Table -->
+                            <table align="center" width="100%"
+                                style="border-collapse: collapse; max-width: 600px; border-radius: 10px; text-align: center; justify-content: center;">
+                                <center>
+                                    <tr>
+                                        <td style=" padding: 10px;">
+                                            <center>
+                                                <div class="img_icon" style="width: 60px;height: 60px;background: white;border-radius: 100px;
+                                                overflow: hidden;">
+                                                    <center>
+                                                        <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724493253/h0kyu82l0cnk73lcnuca.png"
+                                                            alt="Icon 1" class="icon_"
+                                                            style="width: 40px; height: 40px;margin-top: 8px;">
+                                                    </center>
+                                                </div>
+                                            </center>
+                                            <p style="font-size: 18px; color: white; margin: 10px 0;">Speaker
+                                                sessions<br>and quizzes</p>
+                                        </td>
+                                        <td style=" padding: 10px;">
+                                            <center>
+                                                <div class="img_icon" style="width: 60px;height: 60px;background: white;border-radius: 100px;
+                                                overflow: hidden;">
+                                                    <center>
+                                                        <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724492425/qjcxkl9meegjiryyex1a.png"
+                                                            alt="Icon 1" class="icon_"
+                                                            style="width: 40px; height: 40px;margin-top: 8px;">
+                                                    </center>
+                                                </div>
+                                            </center>
+                                            <p style="font-size: 18px; color: white; margin: 10px 0;">Prize Pool:
+                                                10K+<br>Awards & More</p>
+                                        </td>
+                                    </tr>
+                                </center>
+                                <tr>
+                                    <td style="padding: 10px;">
+                                        <center>
+                                            <div class="img_icon" style="width: 60px;height: 60px;background: white;border-radius: 100px;
+                                            overflow: hidden;">
+                                                <center>
+                                                    <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724493255/efuiqc1geos7v5za9bgz.png"
+                                                        alt="Icon 1" class="icon_"
+                                                        style="width: 40px; height: 40px;margin-top: 8px;">
+                                                </center>
+                                            </div>
+                                        </center>
+                                        <p style="font-size: 18px; color: white; margin: 10px 0;">Goodies
+                                            for<br>participants</p>
+                                    </td>
+                                    <td style=" padding: 10px;">
+                                        <center>
+                                            <div class="img_icon" style="width: 60px;height: 60px;background: white;border-radius: 100px;
+                                            overflow: hidden;">
+                                                <center>
+                                                    <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724493254/irk4knehu2bhjkack4oq.png"
+                                                        alt="Icon 1" class="icon_"
+                                                        style="width: 40px; height: 40px;margin-top: 8px;">
+                                                </center>
+                                            </div>
+                                        </center>
+                                        <p style="font-size: 18px; color: white; margin: 10px 0;">Certificates
+                                            for<br>all participants</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                <div style="text-align: center; padding-top: 20px;">
+                    <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724962147/pofom93mrottqqazkv6n.png"
+                        alt="Robot Image Left" style="width: 300px; height: auto;">
+                    <!-- <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724349912/c2d7ea5b18bcfe3a928ef72c3451641e_klk8kk.png"
+                        alt="Robot Image Right" style="width: 180px; height: auto;"> -->
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+
+            <td style="padding: 20px; text-align: center;">
+                <table width="100%" style="border-collapse: collapse; text-align: center;">
+                    <tr>
+                        <h2 style="font-size: 30px; color: #000;">
+
+                            Hack-A-Bot Timing
+                        </h2>
+                    </tr>
+                    <!-- Row 1 -->
+                    <tr>
+                        <!-- Date Column -->
+                        <td style="padding: 10px;  vertical-align: top;">
+                            <table>
+                                <tr>
+
+
+                                    <td>
+                                        <center>
+                                            <div class="icon"
+                                                style="width: 90px; height: 90px; background-color: #b7bfc226; border-radius: 50%;  padding: 5px; box-sizing: border-box;padding-top: 25px;">
+                                                <center>
+                                                    <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724493253/u7qq9ox9kkkkqe8r5y1n.png"
+                                                        alt="Date" style="width: 40px; height: 40px; display: block;">
+                                                </center>
+                                                <!-- <img style="width: 30px; height: 30px;"
+                                                    src="https://cdn-icons-png.flaticon.com/512/14232/14232097.png"
+                                                    alt=""> -->
+                                            </div>
+                                        </center>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-size: 24px; font-weight: 700; color: #333; margin: 0;">01.09.2024
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- <div
+                                style="width: 90px; height: 90px; background-color: #104C5E; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                                <center>
+                                    <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345256/calendar_month_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_f4ocjn.png"
+                                        alt="Date" style="width: 40px; height: 40px; display: block;">
+                                </center>
+                            </div> -->
+
+                        </td>
+
+                        <!-- Location Column -->
+                        <td style="padding: 10px; vertical-align: top;">
+
+
+
+                            <table>
+                                <tr>
+
+
+                                    <td>
+                                        <center>
+                                            <div class="icon"
+                                                style="width: 90px; height: 90px; background-color: #b7bfc226; border-radius: 50%;  padding: 5px; box-sizing: border-box;padding-top: 25px;">
+                                                <center>
+                                                    <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724493254/jvv41lhy32uqwprv6iaw.png"
+                                                        alt="Location"
+                                                        style="width: 40px; height: 40px; display: block;">
+                                                </center>
+                                                <!-- <img style="width: 30px; height: 30px;"
+                                                    src="https://cdn-icons-png.flaticon.com/512/14232/14232097.png"
+                                                    alt=""> -->
+                                            </div>
+                                        </center>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-size: 24px; font-weight: 700; color: #333; margin: 0;">Campus 14
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- <div
+                                style="width: 90px; height: 90px; background-color: #104C5E; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                               
+                            </div> -->
+
+                        </td>
+
+                        <!-- Time Column -->
+                        <td style="padding: 10px; vertical-align: top;">
+
+
+
+
+                            <table>
+                                <tr>
+
+
+                                    <td>
+                                        <center>
+                                            <div class="icon"
+                                                style="width: 90px; height: 90px; background-color: #b7bfc226; border-radius: 50%;  padding: 5px; box-sizing: border-box;padding-top: 25px;">
+                                                <center>
+                                                    <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724493253/vkveqwvoeonyooyjlqmn.png"
+                                                        alt="Time" style="width: 40px; height: 40px; display: block;">
+                                                </center>
+                                                <!-- <img style="width: 30px; height: 30px;"
+                                                    src="https://cdn-icons-png.flaticon.com/512/14232/14232097.png"
+                                                    alt=""> -->
+                                            </div>
+                                        </center>
+                                    </td>
+
+
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-size: 24px; font-weight: 700; color: #333; margin: 0;">9am - 2pm
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+
+
+                            <!-- <center>
+                                <div
+                                    style="width: 90px; height: 90px; background-color: #104C5E; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;box-sizing: border-box;">
+                                    <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345256/schedule_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_pfcz6l.png"
+                                        alt="Time" style="width: 40px; height: 40px; display: block;">
+                                </div>
+                            </center>
+                            <p style="font-size: 24px; font-weight: 700; color: #333; margin: 0;">9am - 1pm</p> -->
+                        </td>
+                    </tr>
+
+
+
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 20px; text-align: center; background-color: #ecf0f1;">
+                <h2 style="font-size: 30px; color: #000;">Speaker Session</h2>
+                <table width="100%" style="border-collapse: collapse;">
+                    <tr>
+                        <td style="padding: 0px; width: 30%;padding-right: 10px;">
+                            <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724770212/ojptjdvswezezxcpiani.png"
+                                alt="Vishwa Mohan" style="width: 100%; height: auto; border-radius: 10px;">
+                        </td>
+                        <td
+                            style="padding: 10px; width: 30%; background: linear-gradient(175.28deg, #06323F 3.1%, #063E4F 74.94%, #085A73 96.9%); color: white; border-radius: 10px; text-align: center;">
+                            <h2 style="font-size: 24px; margin: 0;">VISHWA MOHAN</h2>
+                            <p style="font-size: 16px; margin-top: 10px;">Founder and<br>CEO - AIMERZ.ai
+                                <br> EX CIO at- PHYSICS WALLAH
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px 20px; text-align: center; background-color: #ffffff;">
+                <!-- <p style="font-size: 24px; font-weight: 700; margin: 10px 0;">EX CIO at- PHYSICS WALLAH</p> -->
+                <p style="font-size: 24px; font-weight: 700; margin: 10px 0;">EX SDE at- PAYPAL, LINKEDIN, AMAZON,
+                    WALMART, ORACLE</p>
+                <p style="font-size: 22px; font-weight: 700; margin: 10px 0;">#JobTumharaBhaiDilayeiga</p>
+                <p style="font-size: 18px; font-weight: 700; margin: 10px 0;">We are thrilled to announce that Mr.
+                    Vishwa Mohan, the visionary CEO of AIMERZ, will be our esteemed guest speaker at Hack-a-Bot, our
+                    intercollege competition.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 20px; text-align: center;">
+                <table width="100%" style="border-collapse: collapse; text-align: center;">
+
+                    <!-- Row 1 -->
+                    <tr>
+                        <!-- Date Column -->
+                        <td style="padding: 10px;  vertical-align: top;">
+                            <table>
+                                <tr>
+
+
+                                    <td>
+                                        <center>
+                                            <div class="icon"
+                                                style="width: 90px; height: 90px; background-color: #b7bfc226; border-radius: 50%;  padding: 5px; box-sizing: border-box;padding-top: 25px;">
+                                                <center>
+                                                    <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724493253/u7qq9ox9kkkkqe8r5y1n.png"
+                                                        alt="Date" style="width: 40px; height: 40px; display: block;">
+                                                </center>
+                                                <!-- <img style="width: 30px; height: 30px;"
+                                                    src="https://cdn-icons-png.flaticon.com/512/14232/14232097.png"
+                                                    alt=""> -->
+                                            </div>
+                                        </center>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-size: 24px; font-weight: 700; color: #333; margin: 0;">01.09.2024
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- <div
+                                style="width: 90px; height: 90px; background-color: #104C5E; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                                <center>
+                                    <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345256/calendar_month_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_f4ocjn.png"
+                                        alt="Date" style="width: 40px; height: 40px; display: block;">
+                                </center>
+                            </div> -->
+
+                        </td>
+
+                        <!-- Location Column -->
+                        <td style="padding: 10px; vertical-align: top;">
+
+
+
+                            <table>
+                                <tr>
+
+
+                                    <td>
+                                        <center>
+                                            <div class="icon"
+                                                style="width: 90px; height: 90px; background-color: #b7bfc226; border-radius: 50%;  padding: 5px; box-sizing: border-box;padding-top: 25px;">
+                                                <center>
+                                                    <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724493254/jvv41lhy32uqwprv6iaw.png"
+                                                        alt="Location"
+                                                        style="width: 40px; height: 40px; display: block;">
+                                                </center>
+                                                <!-- <img style="width: 30px; height: 30px;"
+                                                    src="https://cdn-icons-png.flaticon.com/512/14232/14232097.png"
+                                                    alt=""> -->
+                                            </div>
+                                        </center>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-size: 24px; font-weight: 700; color: #333; margin: 0;">Campus 17
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- <div
+                                style="width: 90px; height: 90px; background-color: #104C5E; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                               
+                            </div> -->
+
+                        </td>
+
+                        <!-- Time Column -->
+                        <td style="padding: 10px; vertical-align: top;">
+
+
+
+
+                            <table>
+                                <tr>
+
+
+                                    <td>
+                                        <center>
+                                            <div class="icon"
+                                                style="width: 90px; height: 90px; background-color: #b7bfc226; border-radius: 50%;  padding: 5px; box-sizing: border-box;padding-top: 25px;">
+                                                <center>
+                                                    <img src="https://res.cloudinary.com/dfcmry6w3/image/upload/v1724493253/vkveqwvoeonyooyjlqmn.png"
+                                                        alt="Time" style="width: 40px; height: 40px; display: block;">
+                                                </center>
+                                                <!-- <img style="width: 30px; height: 30px;"
+                                                    src="https://cdn-icons-png.flaticon.com/512/14232/14232097.png"
+                                                    alt=""> -->
+                                            </div>
+                                        </center>
+                                    </td>
+
+
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="font-size: 24px; font-weight: 700; color: #333; margin: 0;">4pm - 6pm
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+
+
+                            <!-- <center>
+                                <div
+                                    style="width: 90px; height: 90px; background-color: #104C5E; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;box-sizing: border-box;">
+                                    <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345256/schedule_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24_pfcz6l.png"
+                                        alt="Time" style="width: 40px; height: 40px; display: block;">
+                                </div>
+                            </center>
+                            <p style="font-size: 24px; font-weight: 700; color: #333; margin: 0;">9am - 1pm</p> -->
+                        </td>
+                    </tr>
+
+
+
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td
+                style="padding: 20px; text-align: center; color: white; border-radius: 22px 22px 0 0; background: linear-gradient(175.28deg, #06323F 3.1%, #063E4F 74.94%, #085A73 96.9%);">
+                <!-- Button -->
+
+
+                <!-- Contact Information -->
+                <p style="margin: 0; font-size: 20px;">For further queries, reach out to:</p>
+                <p style="margin: 5px 0 15px; font-size: 22px;">
+                    <strong>M.Disha:</strong> +91 9337489151<br>
+                    <strong>Anushka Maity:</strong> +91 98042 77745
+                </p>
+
+                <!-- Social Media Links -->
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="https://www.instagram.com/usc.kiit" target="_blank"
+                        style="text-decoration: none; display: inline-block; margin-right: 15px;">
+                        <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345258/instagram_2111463_pzsxdv.png"
+                            alt="Instagram" style="width: 28px;">
+                    </a>
+                    <a href="https://www.linkedin.com/company/uipath-community-kiit/" target="_blank"
+                        style="text-decoration: none; display: inline-block; margin-right: 15px;">
+                        <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345257/linkedin_2504923_okvtmf.png"
+                            alt="LinkedIn" style="width: 28px;">
+                    </a>
+                    <a href="mailto:someone@example.com" style="text-decoration: none; display: inline-block;">
+                        <img src="https://res.cloudinary.com/da3u4ukxz/image/upload/v1724345259/gmail_xksidj.png"
+                            alt="Gmail" style="width: 28px;">
+                    </a>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
